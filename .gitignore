@@ -223,3 +223,21 @@ frontend/dist/
 
 # AgriGuard runtime data
 AgriGuardAI/backend/*.db
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# YOLO outputs
+runs/
+outputs/
+
+# Test images
+test_images/*.zip
+
+# Training artifacts (optional)
+*.pt
+
+# OS files
+.DS_Store
+Thumbs.db
